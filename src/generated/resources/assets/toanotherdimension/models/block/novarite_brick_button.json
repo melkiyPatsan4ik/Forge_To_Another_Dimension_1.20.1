@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "toanotherdimension:block/novarite_brick_block"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/pressure_plate_up",
+  "textures": {
+    "texture": "toanotherdimension:block/novarite_brick_block"
+  }
+}

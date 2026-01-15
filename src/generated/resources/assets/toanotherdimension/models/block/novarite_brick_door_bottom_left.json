@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "bottom": "toanotherdimension:block/novarite_brick_door_bottom",
+    "top": "toanotherdimension:block/novarite_brick_door_top"
+  }
+}

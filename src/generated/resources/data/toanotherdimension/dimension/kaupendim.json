@@ -1,0 +1,11 @@
+{
+  "type": "toanotherdimension:kaupendim_type",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "toanotherdimension:novarite_biome"
+    },
+    "settings": "minecraft:amplified"
+  }
+}

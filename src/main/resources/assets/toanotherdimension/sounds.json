@@ -1,0 +1,15 @@
+{
+  "novarite_detector_found_ore": {
+    "subtitles": "sounds.toanotherdimension.novarite_detector_found_ore",
+    "sounds": [
+      "toanotherdimension:novarite_detector_found_ore"]
+    },
+
+  "space_nullifier": {
+    "sounds": [{
+      "name": "toanotherdimension:space_nullifier",
+      "stream": true
+    }
+    ]
+  }
+}

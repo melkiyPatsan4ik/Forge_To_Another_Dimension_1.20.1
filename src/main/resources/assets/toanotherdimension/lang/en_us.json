@@ -1,0 +1,46 @@
+{
+  "item.toanotherdimension.novarite": "Novarite Ingot",
+  "item.toanotherdimension.novarite_detector": "Novarite Detector",
+  "item.toanotherdimension.novarite_fruit": "Novarite Fruit",
+  "item.toanotherdimension.novarite_vegetable": "Novarite Vegetable",
+  "item.toanotherdimension.novarite_heart": "Novarite Heart",
+
+  "item.toanotherdimension.novarite_wood_axe": "Novarite Wooden Axe",
+  "item.toanotherdimension.novarite_wood_pickaxe": "Novarite Wooden Pickaxe",
+  "item.toanotherdimension.novarite_wood_sword": "Novarite Wooden Sword",
+  "item.toanotherdimension.novarite_wood_shovel": "Novarite Wooden Shovel",
+  "item.toanotherdimension.novarite_wood_hoe": "Novarite Wooden Hoe",
+
+  "item.toanotherdimension.novarite_wood_helmet": "Novarite Wooden Helmet",
+  "item.toanotherdimension.novarite_wood_chestplate": "Novarite Wooden Chestplate",
+  "item.toanotherdimension.novarite_wood_leggings": "Novarite Wooden Leggings",
+  "item.toanotherdimension.novarite_wood_boots": "Novarite Wooden Boots",
+
+  "item.toanotherdimension.space_nullifier_music_disc": "Space Nullifier Music Disc" ,
+  "item.toanotherdimension.space_nullifier_music_disc.desc": "Space Nullifier - Music Disc" ,
+
+  "block.toanotherdimension.novarite_block": "Novarite Portal Block",
+  "block.toanotherdimension.novarite_dirt_block": "Novarite Dirt",
+  "block.toanotherdimension.novarite_ore_block": "Novarite Ore",
+  "block.toanotherdimension.novarite_brick_block": "Novarite Brick",
+  "block.toanotherdimension.novarite_brick_stairs": "Novarite Brick Stairs",
+  "block.toanotherdimension.novarite_brick_slab": "Novarite Brick Slab",
+  "block.toanotherdimension.novarite_brick_button": "Novarite Brick Button",
+  "block.toanotherdimension.novarite_brick_pressure_plate": "Novarite Brick Pressure Plate",
+  "block.toanotherdimension.novarite_brick_fence": "Novarite Brick Fence",
+  "block.toanotherdimension.novarite_brick_fence_gate": "Novarite Brick Fence Gate",
+  "block.toanotherdimension.novarite_brick_wall": "Novarite Brick Wall",
+  "block.toanotherdimension.novarite_brick_door": "Novarite Brick Door",
+
+  "block.toanotherdimension.novarite_leaf_block": "Novarite Tree Leaf",
+  "block.toanotherdimension.novarite_log_block": "Novarite Tree Log",
+  "block.toanotherdimension.novarite_stripped_log_block": "Novarite Stripped Tree Log",
+  "block.toanotherdimension.novarite_wood_plank_block": "Novarite Planks",
+  "block.toanotherdimension.novarite_wood_block": "Novarite Wood",
+  "block.toanotherdimension.novarite_tree_sapling": "Novarite Tree Sapling",
+
+  "creativetab.toanotherdimension.novarite_items": "Novarite Items",
+  "creativetab.toanotherdimension.novarite_blocks": "Novarite Blocks",
+
+  "sounds.toanotherdimension.novarite_detector_found_ore": "Novarite Detector Jingle"
+}

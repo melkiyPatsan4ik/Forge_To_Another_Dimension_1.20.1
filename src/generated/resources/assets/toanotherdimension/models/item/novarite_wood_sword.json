@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "toanotherdimension:item/novarite_wood_sword"
+  }
+}

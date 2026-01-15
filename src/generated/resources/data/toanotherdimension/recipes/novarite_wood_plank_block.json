@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "toanotherdimension:novarite_log_block"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "toanotherdimension:novarite_wood_plank_block"
+  }
+}

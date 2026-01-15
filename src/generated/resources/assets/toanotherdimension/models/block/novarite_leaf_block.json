@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/leaves",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "all": "toanotherdimension:block/novarite_leaf_block"
+  }
+}

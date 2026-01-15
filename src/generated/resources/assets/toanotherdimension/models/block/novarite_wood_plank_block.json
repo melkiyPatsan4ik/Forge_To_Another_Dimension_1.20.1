@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "toanotherdimension:block/novarite_wood_plank_block"
+  }
+}

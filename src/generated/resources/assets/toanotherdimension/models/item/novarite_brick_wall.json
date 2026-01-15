@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "toanotherdimension:block/novarite_brick_block"
+  }
+}
