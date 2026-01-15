@@ -19,7 +19,7 @@ public class ModOverworldRegion extends Region {
     public ModOverworldRegion(ResourceLocation name, int weight){
         super(name, RegionType.OVERWORLD,weight);
     }
-
+    /*
     @Override
     public void addBiomes(Registry<Biome> registry, Consumer<Pair<Climate.ParameterPoint, ResourceKey<Biome>>> mapper)
     {
@@ -29,8 +29,8 @@ public class ModOverworldRegion extends Region {
         new ParameterUtils.ParameterPointListBuilder()
                 .temperature(ParameterUtils.Temperature.span(ParameterUtils.Temperature.COOL, ParameterUtils.Temperature.FROZEN))
                 .humidity(ParameterUtils.Humidity.span(ParameterUtils.Humidity.ARID, ParameterUtils.Humidity.DRY))
-                .continentalness(ParameterUtils.Continentalness.INLAND)
-                .erosion(ParameterUtils.Erosion.EROSION_0, ParameterUtils.Erosion.EROSION_1)
+                .continentalness(ParameterUtils.Continentalness.FAR_INLAND)
+                .erosion(ParameterUtils.Erosion.EROSION_0)
                 .depth(ParameterUtils.Depth.SURFACE, ParameterUtils.Depth.FLOOR)
                 .weirdness(ParameterUtils.Weirdness.MID_SLICE_NORMAL_ASCENDING, ParameterUtils.Weirdness.MID_SLICE_NORMAL_DESCENDING)
                 .build().forEach(point -> builder.add(point, ModBiomes.NOVARITE_BIOME));
@@ -38,4 +38,6 @@ public class ModOverworldRegion extends Region {
         // Add our points to the mapper
         builder.build().forEach(mapper);
     }
+
+     */
 }

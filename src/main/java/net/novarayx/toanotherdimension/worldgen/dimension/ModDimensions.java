@@ -23,11 +23,11 @@ import java.util.OptionalLong;
 
 public class ModDimensions {
     public static final ResourceKey<LevelStem> NOVARAYDIM_KEY = ResourceKey.create(Registries.LEVEL_STEM,
-            ResourceLocation.fromNamespaceAndPath(ToAnotherDimension.MOD_ID, "kaupendim"));
+            ResourceLocation.fromNamespaceAndPath(ToAnotherDimension.MOD_ID, "novarite"));
     public static final ResourceKey<Level> NOVARAYDIM_LEVEL_KEY = ResourceKey.create(Registries.DIMENSION,
-            ResourceLocation.fromNamespaceAndPath(ToAnotherDimension.MOD_ID, "kaupendim"));
+            ResourceLocation.fromNamespaceAndPath(ToAnotherDimension.MOD_ID, "novarite"));
     public static final ResourceKey<DimensionType> NOVARAY_DIM_TYPE = ResourceKey.create(Registries.DIMENSION_TYPE,
-            ResourceLocation.fromNamespaceAndPath(ToAnotherDimension.MOD_ID, "kaupendim_type"));
+            ResourceLocation.fromNamespaceAndPath(ToAnotherDimension.MOD_ID, "novarite_type"));
 
 
     public static void bootstrapType(BootstapContext<DimensionType> context) {

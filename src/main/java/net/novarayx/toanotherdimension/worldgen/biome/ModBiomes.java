@@ -45,15 +45,9 @@ public class ModBiomes {
                 new BiomeGenerationSettings.Builder(context.lookup(Registries.PLACED_FEATURE), context.lookup(Registries.CONFIGURED_CARVER));
         //we need to follow the same order as vanilla biomes for the BiomeDefaultFeatures
         globalOverworldGeneration(biomeBuilder);
-        BiomeDefaultFeatures.addMossyStoneBlock(biomeBuilder);
-        BiomeDefaultFeatures.addForestFlowers(biomeBuilder);
         BiomeDefaultFeatures.addFerns(biomeBuilder);
         BiomeDefaultFeatures.addDefaultOres(biomeBuilder);
-        BiomeDefaultFeatures.addExtraGold(biomeBuilder);
 
-        biomeBuilder.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, VegetationPlacements.TREES_PLAINS);
-
-        BiomeDefaultFeatures.addDefaultMushrooms(biomeBuilder);
         BiomeDefaultFeatures.addDefaultExtraVegetation(biomeBuilder);
         biomeBuilder.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, ModPlacedFeatures.NOVARITE_TREE_PLACED_KEY);
 
@@ -64,12 +58,12 @@ public class ModBiomes {
                 .generationSettings(biomeBuilder.build())
                 .mobSpawnSettings(spawnBuilder.build())
                 .specialEffects((new BiomeSpecialEffects.Builder())
-                        .waterColor(0xe82e3b)
-                        .waterFogColor(0xbf1b26)
-                        .skyColor(0x30c918)
-                        .grassColorOverride(0x7f03fc)
-                        .foliageColorOverride(0xd203fc)
-                        .fogColor(0x22a1e6)
+                        .waterColor(0x03fcb6)
+                        .waterFogColor(0x03fcce)
+                        .skyColor(0x18c982)
+                        .grassColorOverride(0x19ffe4)
+                        .foliageColorOverride(0x19ffab)
+                        .fogColor(0x22bce6)
                         .ambientMoodSound(AmbientMoodSettings.LEGACY_CAVE_SETTINGS)
                         .backgroundMusic(Musics.createGameMusic(ModSounds.SPACE_NULLIFIER.getHolder().get())).build())
                 .build();

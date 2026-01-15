@@ -16,11 +16,12 @@ public class ModSurfaceRules {
     public static SurfaceRules.RuleSource makeRules()
     {
         SurfaceRules.ConditionSource isAtOrAboveWaterLevel = SurfaceRules.waterBlockCheck(-1, 0);
-        SurfaceRules.RuleSource grassSurface = SurfaceRules.sequence(SurfaceRules.ifTrue(isAtOrAboveWaterLevel, GRASS_BLOCK), DIRT);
+        SurfaceRules.RuleSource grassSurface = SurfaceRules.sequence(SurfaceRules.ifTrue(isAtOrAboveWaterLevel, NOVARITE_DIRT), NOVARITE_DIRT);
 
         return SurfaceRules.sequence(
                 SurfaceRules.sequence(SurfaceRules.ifTrue(SurfaceRules.isBiome(ModBiomes.NOVARITE_BIOME),
                                 SurfaceRules.ifTrue(SurfaceRules.ON_FLOOR, NOVARITE_DIRT)),
+                        SurfaceRules.ifTrue(SurfaceRules.UNDER_FLOOR, NOVARITE_BRICK),
                         SurfaceRules.ifTrue(SurfaceRules.ON_CEILING, NOVARITE_BRICK)),
 
                 // Default to a grass and dirt surface
