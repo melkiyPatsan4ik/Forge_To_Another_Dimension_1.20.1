@@ -1,0 +1,11 @@
+{
+  "type": "toanotherdimension:novarite_type",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "toanotherdimension:novarite_noise_settings",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "toanotherdimension:novarite_biome"
+    }
+  }
+}

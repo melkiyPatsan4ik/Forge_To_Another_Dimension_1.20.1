@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "W": {
+      "item": "toanotherdimension:novarite_wood_plank_block"
+    }
+  },
+  "pattern": [
+    "WWW",
+    "W W",
+    "W W"
+  ],
+  "result": {
+    "item": "toanotherdimension:novarite_wood_leggings"
+  },
+  "show_notification": true
+}

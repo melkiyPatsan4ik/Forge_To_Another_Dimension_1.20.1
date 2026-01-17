@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "item": "toanotherdimension:novarite_wood_plank_block"
+    }
+  },
+  "pattern": [
+    "WW ",
+    "WS ",
+    " S "
+  ],
+  "result": {
+    "item": "toanotherdimension:novarite_wood_axe"
+  },
+  "show_notification": true
+}
