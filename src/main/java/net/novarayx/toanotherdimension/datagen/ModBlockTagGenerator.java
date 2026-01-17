@@ -56,8 +56,6 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.NOVARITE_WOOD_BLOCK.get())
                 .add(ModBlocks.NOVARITE_WOOD_PlANK_BLOCK.get());
 
-        this.tag(PLANKS)
-                .add(ModBlocks.NOVARITE_WOOD_PlANK_BLOCK.get());
 
         this.tag(DIRT)
                 .add(ModBlocks.NOVARITE_BLOCK_DIRT.get());

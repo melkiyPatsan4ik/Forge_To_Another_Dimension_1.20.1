@@ -6,6 +6,7 @@ import net.minecraft.tags.TagKey;
 import net.minecraft.world.level.biome.Biome;
 import net.novarayx.toanotherdimension.ToAnotherDimension;
 
+// NOT BEING USED FOR ANYTHING RIGHT NOW
 public class ModBiomeTags {
     public static final TagKey<Biome> NOVARITE_BIOME_TAG =
             TagKey.create(Registries.BIOME,

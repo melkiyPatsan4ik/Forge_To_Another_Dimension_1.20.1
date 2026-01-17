@@ -6,6 +6,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.novarayx.toanotherdimension.ToAnotherDimension;
+import net.novarayx.toanotherdimension.item.custom.FuelItem;
 import net.novarayx.toanotherdimension.item.custom.MetalDetectorItem;
 import net.novarayx.toanotherdimension.sound.ModSounds;
 
