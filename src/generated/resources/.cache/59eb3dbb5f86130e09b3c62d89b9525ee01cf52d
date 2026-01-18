@@ -1,4 +1,4 @@
-// 1.20.1	2026-01-15T01:37:07.660378	Loot Tables
+// 1.20.1	2026-01-18T16:24:55.9114706	Loot Tables
 fdac372c7cf1fc28c0b0d14b55af84767e82f9eb data/toanotherdimension/loot_tables/blocks/novarite_block.json
 1b6ad6c737ca7947ea7daa786e21c624e6213f27 data/toanotherdimension/loot_tables/blocks/novarite_brick_block.json
 fad32fdb04e371c7d1253d9077018230dffc62df data/toanotherdimension/loot_tables/blocks/novarite_brick_button.json
@@ -13,6 +13,7 @@ b6f36289a987d60ae0901983476a2f3d8b7afd73 data/toanotherdimension/loot_tables/blo
 d19e26350ed41575c300ae78526f7149a175bedb data/toanotherdimension/loot_tables/blocks/novarite_leaf_block.json
 46e3a8847b9bd568112a8dafa7d2b7951360ef8f data/toanotherdimension/loot_tables/blocks/novarite_log_block.json
 9907756c13f8d8ef37177072c4db586fbcbb9607 data/toanotherdimension/loot_tables/blocks/novarite_ore_block.json
+3b080ca8a6f79d574302d0ad6aa7f0263d9ee24c data/toanotherdimension/loot_tables/blocks/novarite_stone_block.json
 2a9f0a474a374196783b137e4ee23c69df407032 data/toanotherdimension/loot_tables/blocks/novarite_stripped_log_block.json
 d66f6b320c02e15fd9fb9768a18d4412ecf71e7f data/toanotherdimension/loot_tables/blocks/novarite_stripped_wood_block.json
 ac1010f9443c1845376df171f5cfa87f7865b95c data/toanotherdimension/loot_tables/blocks/novarite_tree_sapling.json

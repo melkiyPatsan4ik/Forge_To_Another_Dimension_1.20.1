@@ -28,6 +28,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     protected void generate() {
         this.dropSelf(ModBlocks.NOVARITE_ORE_BLOCK.get());
         this.dropSelf(ModBlocks.NOVARITE_BLOCK.get());
+        this.dropSelf(ModBlocks.NOVARITE_STONE_BLOCK.get());
         this.dropSelf(ModBlocks.NOVARITE_LOG_BLOCK.get());
         this.dropSelf(ModBlocks.NOVARITE_BRICK_BLOCK.get());
         this.dropSelf(ModBlocks.NOVARITE_BLOCK_DIRT.get());

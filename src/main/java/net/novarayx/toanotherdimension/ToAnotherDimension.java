@@ -73,6 +73,7 @@ public class ToAnotherDimension
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
             event.accept(ModBlocks.NOVARITE_BLOCK);
             event.accept(ModBlocks.NOVARITE_BLOCK_DIRT);
+            event.accept(ModBlocks.NOVARITE_STONE_BLOCK);
             event.accept(ModBlocks.NOVARITE_ORE_BLOCK);
             event.accept(ModBlocks.NOVARITE_LEAF_BLOCK);
             event.accept(ModBlocks.NOVARITE_LOG_BLOCK);

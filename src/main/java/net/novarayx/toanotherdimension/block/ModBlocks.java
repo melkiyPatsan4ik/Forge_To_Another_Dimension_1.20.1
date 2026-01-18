@@ -29,13 +29,18 @@ public class ModBlocks {
     public static final RegistryObject<Block> NOVARITE_BLOCK = registerBlock("novarite_block",
             ()-> new ModPortalBlock(BlockBehaviour.Properties.of()
                     .strength(4f)
-                    .requiresCorrectToolForDrops()
                     .sound(SoundType.AMETHYST)));
     public static final RegistryObject<Block> NOVARITE_ORE_BLOCK = registerBlock("novarite_ore_block",
             ()-> new DropExperienceBlock(BlockBehaviour.Properties.of()
                     .strength(5f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.NETHER_ORE)));
+
+    public static final RegistryObject<Block> NOVARITE_STONE_BLOCK = registerBlock("novarite_stone_block",
+            ()-> new Block(BlockBehaviour.Properties.of()
+                    .strength(2f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
 
     public static final RegistryObject<Block> NOVARITE_BLOCK_DIRT = registerBlock("novarite_dirt_block",
             ()-> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)
@@ -89,6 +94,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> NOVARITE_BRICK_BLOCK = registerBlock("novarite_brick_block",
             ()-> new Block(BlockBehaviour.Properties.of()
                     .strength(3f)
+                    .requiresCorrectToolForDrops()
                     .sound(SoundType.NETHER_BRICKS)){
 
                 @Override

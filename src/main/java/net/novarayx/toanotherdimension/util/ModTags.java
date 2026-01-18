@@ -15,6 +15,10 @@ public class ModTags {
                 = tag("metal_detector_valuables");
         public static final TagKey<Block> NEEDS_NOVARITE_TOOL
                 = tag("needs_novarite_tool");
+        public static final TagKey<Block> NOVARITE_PORTAL_BLACKLIST
+                = tag("needs_novarite_tool");
+        public static final TagKey<Block> NOVARITE_PORTAL_BLOCKS
+                = tag("needs_novarite_tool");
 
         private static TagKey<Block> tag(String name){
             return BlockTags.create(ResourceLocation.fromNamespaceAndPath(ToAnotherDimension.MOD_ID, name));

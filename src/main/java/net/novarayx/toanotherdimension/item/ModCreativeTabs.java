@@ -52,6 +52,7 @@ public class ModCreativeTabs {
                             .displayItems((itemDisplayParameters, output) -> {
                                 output.accept(ModBlocks.NOVARITE_BLOCK.get());
                                 output.accept(ModBlocks.NOVARITE_BLOCK_DIRT.get());
+                                output.accept(ModBlocks.NOVARITE_STONE_BLOCK.get());
                                 output.accept(ModBlocks.NOVARITE_ORE_BLOCK.get());
                                 output.accept(ModBlocks.NOVARITE_LEAF_BLOCK.get());
                                 output.accept(ModBlocks.NOVARITE_LOG_BLOCK.get());

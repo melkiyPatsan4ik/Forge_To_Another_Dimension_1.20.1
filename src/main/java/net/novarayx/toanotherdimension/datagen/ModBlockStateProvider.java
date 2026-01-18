@@ -20,6 +20,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.NOVARITE_BLOCK);
         blockWithItem(ModBlocks.NOVARITE_BLOCK_DIRT);
+        blockWithItem(ModBlocks.NOVARITE_STONE_BLOCK);
         blockWithItem(ModBlocks.NOVARITE_BRICK_BLOCK);
         blockWithItem(ModBlocks.NOVARITE_ORE_BLOCK);
 
