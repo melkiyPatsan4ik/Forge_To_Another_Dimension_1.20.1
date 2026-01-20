@@ -40,6 +40,8 @@ public class ModCreativeTabs {
 
                                 output.accept(ModBlocks.NOVARITE_TREE_SAPLING.get().asItem());
                                 output.accept(ModItems.SPACE_NULLIFIER_MUSIC_DISC.get());
+
+                                output.accept(ModItems.CROCO_SPAWN_EGG.get());
                             })
 
                             .build());

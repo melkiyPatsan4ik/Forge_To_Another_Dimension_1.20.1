@@ -1,0 +1,10 @@
+{
+  "type": "toanotherdimension:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "toanotherdimension:entity/croco"
+    }
+  ],
+  "item": "toanotherdimension:novarite_heart"
+}

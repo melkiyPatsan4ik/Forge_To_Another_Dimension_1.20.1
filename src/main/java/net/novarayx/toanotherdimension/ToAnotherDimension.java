@@ -1,6 +1,7 @@
 package net.novarayx.toanotherdimension;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -14,8 +15,11 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.novarayx.toanotherdimension.block.ModBlocks;
+import net.novarayx.toanotherdimension.entity.ModEntities;
+import net.novarayx.toanotherdimension.entity.client.CrocoRenderer;
 import net.novarayx.toanotherdimension.item.ModCreativeTabs;
 import net.novarayx.toanotherdimension.item.ModItems;
+import net.novarayx.toanotherdimension.loot.ModLootModifiers;
 import net.novarayx.toanotherdimension.sound.ModSounds;
 import net.novarayx.toanotherdimension.worldgen.biome.ModTerrablender;
 import net.novarayx.toanotherdimension.worldgen.biome.surface.ModSurfaceRules;
@@ -47,6 +51,10 @@ public class ToAnotherDimension
         ModBlocks.register(modEventBus);
 
         ModSounds.register(modEventBus);
+
+        ModEntities.register(modEventBus);
+
+        ModLootModifiers.register(modEventBus);
 
         ModTerrablender.registerBiomes();
 
@@ -106,7 +114,7 @@ public class ToAnotherDimension
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-
+            EntityRenderers.register(ModEntities.CROCO.get(), CrocoRenderer::new);
         }
     }
 }

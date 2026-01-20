@@ -73,6 +73,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.NOVARITE_WOOD_BOOTS);
 
         saplingItem(ModBlocks.NOVARITE_TREE_SAPLING);
+
+        withExistingParent(ModItems.CROCO_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
     }
 
     private void trimmedArmorItem(RegistryObject<Item> itemRegistryObject) {

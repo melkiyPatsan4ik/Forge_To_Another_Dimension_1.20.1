@@ -1,0 +1,14 @@
+{
+  "type": "toanotherdimension:add_item",
+  "conditions": [
+    {
+      "block": "toanotherdimension:novarite_leaf_block",
+      "condition": "minecraft:block_state_property"
+    },
+    {
+      "chance": 0.35,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "toanotherdimension:novarite_fruit"
+}

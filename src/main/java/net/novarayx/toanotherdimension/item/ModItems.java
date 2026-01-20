@@ -1,11 +1,13 @@
 package net.novarayx.toanotherdimension.item;
 
 import net.minecraft.world.item.*;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.novarayx.toanotherdimension.ToAnotherDimension;
+import net.novarayx.toanotherdimension.entity.ModEntities;
 import net.novarayx.toanotherdimension.item.custom.FuelItem;
 import net.novarayx.toanotherdimension.item.custom.MetalDetectorItem;
 import net.novarayx.toanotherdimension.sound.ModSounds;
@@ -48,6 +50,10 @@ public class ModItems {
     public static final RegistryObject<Item> SPACE_NULLIFIER_MUSIC_DISC = ITEMS.register("space_nullifier_music_disc",
             () -> new RecordItem(6, ModSounds.SPACE_NULLIFIER, new Item.Properties().stacksTo(1), 2440));
 
+
+    public static final RegistryObject<Item> CROCO_SPAWN_EGG = ITEMS.register("croco_spawn_item",
+            () -> new ForgeSpawnEggItem(ModEntities.CROCO,0x7e9680, 0xc5d1c5,
+                    new Item.Properties()));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
