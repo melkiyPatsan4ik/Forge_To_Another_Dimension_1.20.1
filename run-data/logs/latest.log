@@ -1,39 +1,39 @@
-[19Jan2026 20:59:32.788] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\spyro\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, toanotherdimension, --all, --output, C:\My Mods\To_Another_Dimension_1.20.1\src\generated\resources, --existing, C:\My Mods\To_Another_Dimension_1.20.1\src\main\resources]
-[19Jan2026 20:59:32.794] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.17 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[19Jan2026 20:59:32.912] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[19Jan2026 20:59:32.964] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/spyro/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[19Jan2026 20:59:33.252] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\spyro\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.10\ccc533c7dd67e0983217197d7549c8b49e7ab453\javafmllanguage-1.20.1-47.4.10.jar is missing mods.toml file
-[19Jan2026 20:59:33.255] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\spyro\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.10\e9a2879fe3612ea34b9728ec2633304a1e67d480\lowcodelanguage-1.20.1-47.4.10.jar is missing mods.toml file
-[19Jan2026 20:59:33.258] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\spyro\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.10\ec5cefbbc65c67302b8fac317010faab85fa14b9\mclanguage-1.20.1-47.4.10.jar is missing mods.toml file
-[19Jan2026 20:59:33.261] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\spyro\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.10\94dae566be650566ea9115a1414ab76bfcf5a804\fmlcore-1.20.1-47.4.10.jar is missing mods.toml file
-[19Jan2026 20:59:33.337] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[19Jan2026 20:59:34.607] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[19Jan2026 20:59:34.611] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\spyro\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, toanotherdimension, --all, --output, C:\My Mods\To_Another_Dimension_1.20.1\src\generated\resources, --existing, C:\My Mods\To_Another_Dimension_1.20.1\src\main\resources]
-[19Jan2026 20:59:34.965] [main/INFO] [mixin/]: Remapping refMap terrablender.refmap.json using C:\My Mods\To_Another_Dimension_1.20.1\build\createSrgToMcp\output.srg
-[19Jan2026 20:59:34.967] [main/INFO] [mixin/]: Remapping refMap terrablender.refmap.json using C:\My Mods\To_Another_Dimension_1.20.1\build\createSrgToMcp\output.srg
-[19Jan2026 20:59:35.318] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [toanotherdimension]
-[19Jan2026 20:59:39.616] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.10, for MC 1.20.1 with MCP 20230612.114412
-[19Jan2026 20:59:39.616] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.10 Initialized
-[19Jan2026 20:59:39.654] [modloading-worker-0/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[19Jan2026 20:59:39.654] [modloading-worker-0/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[19Jan2026 20:59:39.654] [modloading-worker-0/INFO] [terrablender/]: Registered region toanotherdimension:overworld to index 1 for type OVERWORLD
-[19Jan2026 20:59:40.017] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/spyro/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.10_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.4.10_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[19Jan2026 20:59:40.017] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/spyro/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.10_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.4.10_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[19Jan2026 20:59:40.162] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[19Jan2026 20:59:40.214] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 51 ms
-[19Jan2026 20:59:40.215] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[19Jan2026 20:59:40.255] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 40 ms
-[19Jan2026 20:59:40.255] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: toanotherdimension
-[19Jan2026 20:59:40.445] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: toanotherdimension finished after 190 ms
-[19Jan2026 20:59:40.445] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: toanotherdimension
-[19Jan2026 20:59:40.472] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: toanotherdimension finished after 26 ms
-[19Jan2026 20:59:40.473] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id toanotherdimension
-[19Jan2026 20:59:40.495] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id toanotherdimension finished after 22 ms
-[19Jan2026 20:59:40.495] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id toanotherdimension
-[19Jan2026 20:59:40.496] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id toanotherdimension finished after 1 ms
-[19Jan2026 20:59:40.497] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
-[19Jan2026 20:59:40.537] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 40 ms
-[19Jan2026 20:59:40.537] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Global Loot Modifiers : toanotherdimension
-[19Jan2026 20:59:40.546] [main/INFO] [net.minecraft.data.DataGenerator/]: Global Loot Modifiers : toanotherdimension finished after 8 ms
-[19Jan2026 20:59:40.547] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 384 ms
-[19Jan2026 20:59:40.568] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 214, old count: 214, new count: 215, removed stale: 0, written: 1
+[22Jan2026 20:20:19.146] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\spyro\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, toanotherdimension, --all, --output, C:\Users\spyro\IdeaProjects\Forge_To_Another_Dimension_1.20.1\src\generated\resources, --existing, C:\Users\spyro\IdeaProjects\Forge_To_Another_Dimension_1.20.1\src\main\resources]
+[22Jan2026 20:20:19.152] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.17 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[22Jan2026 20:20:19.339] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[22Jan2026 20:20:19.398] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/spyro/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[22Jan2026 20:20:19.862] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\spyro\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.10\ccc533c7dd67e0983217197d7549c8b49e7ab453\javafmllanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[22Jan2026 20:20:19.864] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\spyro\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.10\e9a2879fe3612ea34b9728ec2633304a1e67d480\lowcodelanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[22Jan2026 20:20:19.866] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\spyro\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.10\ec5cefbbc65c67302b8fac317010faab85fa14b9\mclanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[22Jan2026 20:20:19.868] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\spyro\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.10\94dae566be650566ea9115a1414ab76bfcf5a804\fmlcore-1.20.1-47.4.10.jar is missing mods.toml file
+[22Jan2026 20:20:20.030] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[22Jan2026 20:20:21.812] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[22Jan2026 20:20:21.816] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\spyro\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, toanotherdimension, --all, --output, C:\Users\spyro\IdeaProjects\Forge_To_Another_Dimension_1.20.1\src\generated\resources, --existing, C:\Users\spyro\IdeaProjects\Forge_To_Another_Dimension_1.20.1\src\main\resources]
+[22Jan2026 20:20:22.233] [main/INFO] [mixin/]: Remapping refMap terrablender.refmap.json using C:\Users\spyro\IdeaProjects\Forge_To_Another_Dimension_1.20.1\build\createSrgToMcp\output.srg
+[22Jan2026 20:20:22.234] [main/INFO] [mixin/]: Remapping refMap terrablender.refmap.json using C:\Users\spyro\IdeaProjects\Forge_To_Another_Dimension_1.20.1\build\createSrgToMcp\output.srg
+[22Jan2026 20:20:22.815] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [toanotherdimension]
+[22Jan2026 20:20:28.394] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.10, for MC 1.20.1 with MCP 20230612.114412
+[22Jan2026 20:20:28.395] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.10 Initialized
+[22Jan2026 20:20:28.434] [modloading-worker-0/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[22Jan2026 20:20:28.435] [modloading-worker-0/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[22Jan2026 20:20:28.435] [modloading-worker-0/INFO] [terrablender/]: Registered region toanotherdimension:overworld to index 1 for type OVERWORLD
+[22Jan2026 20:20:28.927] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/spyro/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.10_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.4.10_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[22Jan2026 20:20:28.927] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/spyro/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.10_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.4.10_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[22Jan2026 20:20:29.288] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[22Jan2026 20:20:29.370] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 83 ms
+[22Jan2026 20:20:29.370] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[22Jan2026 20:20:29.455] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 83 ms
+[22Jan2026 20:20:29.457] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: toanotherdimension
+[22Jan2026 20:20:29.614] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: toanotherdimension finished after 157 ms
+[22Jan2026 20:20:29.614] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: toanotherdimension
+[22Jan2026 20:20:29.635] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: toanotherdimension finished after 21 ms
+[22Jan2026 20:20:29.635] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id toanotherdimension
+[22Jan2026 20:20:29.674] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id toanotherdimension finished after 37 ms
+[22Jan2026 20:20:29.674] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id toanotherdimension
+[22Jan2026 20:20:29.675] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id toanotherdimension finished after 1 ms
+[22Jan2026 20:20:29.675] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
+[22Jan2026 20:20:29.704] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 28 ms
+[22Jan2026 20:20:29.704] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Global Loot Modifiers : toanotherdimension
+[22Jan2026 20:20:29.710] [main/INFO] [net.minecraft.data.DataGenerator/]: Global Loot Modifiers : toanotherdimension finished after 6 ms
+[22Jan2026 20:20:29.710] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 424 ms
+[22Jan2026 20:20:29.721] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 215, old count: 215, new count: 216, removed stale: 0, written: 0

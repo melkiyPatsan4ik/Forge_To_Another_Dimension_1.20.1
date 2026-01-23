@@ -17,6 +17,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.novarayx.toanotherdimension.block.ModBlocks;
 import net.novarayx.toanotherdimension.entity.ModEntities;
 import net.novarayx.toanotherdimension.entity.client.CrocoRenderer;
+import net.novarayx.toanotherdimension.entity.client.DrawoolRenderer;
 import net.novarayx.toanotherdimension.item.ModCreativeTabs;
 import net.novarayx.toanotherdimension.item.ModItems;
 import net.novarayx.toanotherdimension.loot.ModLootModifiers;
@@ -115,6 +116,7 @@ public class ToAnotherDimension
         public static void onClientSetup(FMLClientSetupEvent event)
         {
             EntityRenderers.register(ModEntities.CROCO.get(), CrocoRenderer::new);
+            EntityRenderers.register(ModEntities.DRAWOOL.get(), DrawoolRenderer::new);
         }
     }
 }

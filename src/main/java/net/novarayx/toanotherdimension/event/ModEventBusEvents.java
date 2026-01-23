@@ -12,5 +12,6 @@ public class ModEventBusEvents {
     @SubscribeEvent
     public static void registerAttributes(EntityAttributeCreationEvent event){
         event.put(ModEntities.CROCO.get(), CrocoEntity.createAttributes().build());
+        event.put(ModEntities.DRAWOOL.get(), CrocoEntity.createAttributes().build());
     }
 }

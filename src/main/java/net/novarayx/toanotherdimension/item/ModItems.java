@@ -54,6 +54,9 @@ public class ModItems {
     public static final RegistryObject<Item> CROCO_SPAWN_EGG = ITEMS.register("croco_spawn_item",
             () -> new ForgeSpawnEggItem(ModEntities.CROCO,0x7e9680, 0xc5d1c5,
                     new Item.Properties()));
+    public static final RegistryObject<Item> DRAWOOL_SPAWN_EGG = ITEMS.register("drawool_spawn_item",
+            () -> new ForgeSpawnEggItem(ModEntities.DRAWOOL,0x4e9999, 0xc2d1c5,
+                    new Item.Properties()));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

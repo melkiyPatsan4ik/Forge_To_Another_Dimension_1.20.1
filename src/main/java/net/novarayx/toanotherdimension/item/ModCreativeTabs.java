@@ -42,6 +42,7 @@ public class ModCreativeTabs {
                                 output.accept(ModItems.SPACE_NULLIFIER_MUSIC_DISC.get());
 
                                 output.accept(ModItems.CROCO_SPAWN_EGG.get());
+                                output.accept(ModItems.DRAWOOL_SPAWN_EGG.get());
                             })
 
                             .build());
