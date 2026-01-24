@@ -1,4 +1,5 @@
-# Minecraft Mod: To Another Dimension - made by NovaRayX
+# To Another Dimension 
+## Minecraft Mod - made by NovaRayX
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.20.1-green)
 ![Forge](https://img.shields.io/badge/Forge-47.4.10-orange)
 ## Overview
@@ -17,13 +18,13 @@ Mine a new ore that can be transformed into a portal, allowing you to travel to 
 - Structures
 
 ## Screenshots
-![Creatures](images/creatures.jpg)
-![Tools](images/tools.jpg)
+![Creatures](docs/images/creatures.jpg)
+![Tools](docs/images/tools.jpg)
 
 ## Features in development:
--Berry Bushes.
--Portal Placement (note: sometimes the player may spawn inside blocks)
--More ores.
--Enemy entities.
--Dungeons.
--Boss Fights.
+- Berry Bushes.
+- Portal Placement
+- More ores.
+- Enemy entities.
+- Dungeons.
+- Boss Fights.
