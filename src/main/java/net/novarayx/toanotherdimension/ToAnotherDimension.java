@@ -22,10 +22,8 @@ import net.novarayx.toanotherdimension.item.ModCreativeTabs;
 import net.novarayx.toanotherdimension.item.ModItems;
 import net.novarayx.toanotherdimension.loot.ModLootModifiers;
 import net.novarayx.toanotherdimension.sound.ModSounds;
-import net.novarayx.toanotherdimension.worldgen.biome.ModTerrablender;
 import net.novarayx.toanotherdimension.worldgen.biome.surface.ModSurfaceRules;
 import org.slf4j.Logger;
-import terrablender.api.SurfaceRuleManager;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(ToAnotherDimension.MOD_ID)
@@ -57,7 +55,6 @@ public class ToAnotherDimension
 
         ModLootModifiers.register(modEventBus);
 
-        ModTerrablender.registerBiomes();
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -68,8 +65,6 @@ public class ToAnotherDimension
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
-        SurfaceRuleManager.addSurfaceRules(SurfaceRuleManager.RuleCategory.OVERWORLD, MOD_ID, ModSurfaceRules.makeRules());
-
     }
 
     // Add the example block item to the building blocks tab
