@@ -1,11 +1,12 @@
-// 1.20.1	2026-01-17T16:05:59.294975	Tags for minecraft:block mod id toanotherdimension
+// 1.20.1	2026-01-25T16:12:22.2385367	Tags for minecraft:block mod id toanotherdimension
 92691f0d42f123c07ff33d14efa9ac788312f2de data/minecraft/tags/blocks/dirt.json
 9d5415d3346db5b4e6dcf00f4bdecbb4f6e786ab data/minecraft/tags/blocks/fences.json
 d853919bf42509662cb3d1171ef4668fc5c364ec data/minecraft/tags/blocks/fence_gates.json
 5c625ef0d12562f60a224c013afcc07ad9a038b1 data/minecraft/tags/blocks/logs_that_burn.json
-28d6909b069573d5b61761c1791ede57ed8bda11 data/minecraft/tags/blocks/mineable/pickaxe.json
+8ac384f7580799dbbdb07bcc8762a500f6cea8f4 data/minecraft/tags/blocks/mineable/pickaxe.json
+92691f0d42f123c07ff33d14efa9ac788312f2de data/minecraft/tags/blocks/mineable/shovel.json
 9b448f3236b61c02489ae7cbc8144ee78a18fdbe data/minecraft/tags/blocks/needs_diamond_tool.json
 207aeca7bb8a3ba1cd3fc4e446898aaeb56de246 data/minecraft/tags/blocks/needs_iron_tool.json
 777a924c143b4fb0cd8a615c20683ecfab349eb5 data/minecraft/tags/blocks/walls.json
 68368cf7f43c5883a624fa8a468852aef6428a3d data/toanotherdimension/tags/blocks/metal_detector_valuables.json
-b03e475e5495a75072c53d724e2cdc817b073727 data/toanotherdimension/tags/blocks/needs_novarite_tool.json
+c8f479bf9b986d98b35f2c117cf7d18e798ff98c data/toanotherdimension/tags/blocks/needs_novarite_tool.json

@@ -1,6 +1,8 @@
 package net.novarayx.toanotherdimension.block.custom;
 
 import net.minecraft.nbt.CompoundTag;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.core.BlockPos;
@@ -21,6 +23,7 @@ public class ModPortalBlock extends Block {
         super(pProperties);
     }
 
+
     private static final String PORTAL_TIMER = "NovaritePortalTime";
     private static final int REQUIRED_TICKS = 100; // 5 seconds
 
@@ -32,6 +35,7 @@ public class ModPortalBlock extends Block {
         int time = data.getInt(PORTAL_TIMER) + 1;
 
         data.putInt(PORTAL_TIMER, time);
+
 
         if (time >= REQUIRED_TICKS) {
             data.remove(PORTAL_TIMER);
@@ -58,11 +62,28 @@ public class ModPortalBlock extends Block {
             ServerLevel portalDimension = minecraftserver.getLevel(resourcekey);
             if (portalDimension != null && !player.isPassenger()) {
                 if (resourcekey == ModDimensions.NOVARAYDIM_LEVEL_KEY) {
-                    player.changeDimension(portalDimension, new ModTeleporter(pPos, true));
+                    CompoundTag tag = player.getPersistentData();
+                    BlockPos pos = player.blockPosition();
+
+                    tag.putInt("novaray_return_x", pos.getX());
+                    tag.putInt("novaray_return_y", pos.getY());
+                    tag.putInt("novaray_return_z", pos.getZ());
+                    player.changeDimension(portalDimension, new ModTeleporter());
                 } else {
-                    player.changeDimension(portalDimension, new ModTeleporter(pPos, false));
+                    player.changeDimension(portalDimension, new ModTeleporter());
                 }
             }
         }
     }
+
+    @Override
+    public void entityInside(BlockState state, Level level, BlockPos pos, Entity entity) {
+        // do nothing, but REQUIRED so stepOn works properly
+    }
+
+    @Override
+    public void onRemove(BlockState state, Level level, BlockPos pos, BlockState newState, boolean isMoving) {
+        super.onRemove(state, level, pos, newState, isMoving);
+    }
+
 }

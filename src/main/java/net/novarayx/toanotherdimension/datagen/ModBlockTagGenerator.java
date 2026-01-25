@@ -30,7 +30,12 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         this.tag(MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.NOVARITE_BRICK_BLOCK.get(),
                         ModBlocks.NOVARITE_BLOCK.get(),
-                        ModBlocks.NOVARITE_ORE_BLOCK.get()
+                        ModBlocks.NOVARITE_ORE_BLOCK.get(),
+                        ModBlocks.NOVARITE_STONE_BLOCK.get()
+                );
+
+        this.tag(MINEABLE_WITH_SHOVEL)
+                .add(ModBlocks.NOVARITE_BLOCK_DIRT.get()
                 );
 
         this.tag(NEEDS_IRON_TOOL)
@@ -40,7 +45,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
             .add(ModBlocks.NOVARITE_LOG_BLOCK.get());
 
         this.tag(ModTags.Blocks.NEEDS_NOVARITE_TOOL)
-                .add(ModBlocks.NOVARITE_BRICK_BLOCK.get());
+                .add(ModBlocks.NOVARITE_BRICK_BLOCK.get())
+                .add(ModBlocks.NOVARITE_STONE_BLOCK.get());
 
         this.tag(BlockTags.FENCES)
                 .add(ModBlocks.NOVARITE_BRICK_FENCE.get());
@@ -59,6 +65,12 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
         this.tag(DIRT)
                 .add(ModBlocks.NOVARITE_BLOCK_DIRT.get());
+
+        /*
+        this.tag(BASE_STONE_OVERWORLD)
+               .add(ModBlocks.NOVARITE_STONE_BLOCK.get());
+
+         */
         }
 
 }

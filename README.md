@@ -23,7 +23,6 @@ Mine a new ore that can be transformed into a portal, allowing you to travel to 
 
 ## Features in development:
 - Berry Bushes.
-- Portal Placement
 - More ores.
 - Enemy entities.
 - Dungeons.
