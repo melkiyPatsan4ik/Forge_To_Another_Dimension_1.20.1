@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "toanotherdimension:novarite_brick_block"
+    }
+  },
+  "pattern": [
+    "NN"
+  ],
+  "result": {
+    "count": 6,
+    "item": "toanotherdimension:novarite_brick_pressure_plate"
+  },
+  "show_notification": true
+}

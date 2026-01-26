@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "toanotherdimension:novarite_brick_block"
+    }
+  ],
+  "result": {
+    "item": "toanotherdimension:novarite_brick_button"
+  }
+}

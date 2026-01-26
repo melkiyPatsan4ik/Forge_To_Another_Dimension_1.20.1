@@ -1,6 +1,8 @@
 package net.novarayx.toanotherdimension.item;
 
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.*;
+import net.minecraft.world.level.Level;
 import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -11,13 +13,22 @@ import net.novarayx.toanotherdimension.entity.ModEntities;
 import net.novarayx.toanotherdimension.item.custom.FuelItem;
 import net.novarayx.toanotherdimension.item.custom.MetalDetectorItem;
 import net.novarayx.toanotherdimension.sound.ModSounds;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.List;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, ToAnotherDimension.MOD_ID);
 
     public static final RegistryObject<Item> NOVARITE = ITEMS.register("novarite",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties()){
+                @Override
+                public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
+                    pTooltipComponents.add(Component.translatable("tooltip.toanotherdimension.novarite"));
+                    super.appendHoverText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
+                }
+            });
     public static final RegistryObject<Item> NOVARITE_HEART = ITEMS.register("novarite_heart",
             () -> new Item(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> NOVARITE_DETECTOR = ITEMS.register("novarite_detector",

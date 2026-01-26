@@ -19,6 +19,9 @@
   "item.toanotherdimension.space_nullifier_music_disc": "Space Nullifier Music Disc" ,
   "item.toanotherdimension.space_nullifier_music_disc.desc": "Space Nullifier - Music Disc" ,
 
+  "item.toanotherdimension.croco_spawn_item": "Croco Spawn Egg" ,
+  "item.toanotherdimension.drawool_spawn_item": "Drawool Spawn Egg" ,
+
   "block.toanotherdimension.novarite_block": "Novarite Portal Block",
   "block.toanotherdimension.novarite_dirt_block": "Novarite Dirt",
   "block.toanotherdimension.novarite_ore_block": "Novarite Ore",
@@ -36,6 +39,7 @@
   "block.toanotherdimension.novarite_leaf_block": "Novarite Tree Leaf",
   "block.toanotherdimension.novarite_log_block": "Novarite Tree Log",
   "block.toanotherdimension.novarite_stripped_log_block": "Novarite Stripped Tree Log",
+  "block.toanotherdimension.novarite_stripped_wood_block": "Novarite Stripped Wood Log",
   "block.toanotherdimension.novarite_wood_plank_block": "Novarite Planks",
   "block.toanotherdimension.novarite_wood_block": "Novarite Wood",
   "block.toanotherdimension.novarite_tree_sapling": "Novarite Tree Sapling",
@@ -43,5 +47,8 @@
   "creativetab.toanotherdimension.novarite_items": "Novarite Items",
   "creativetab.toanotherdimension.novarite_blocks": "Novarite Blocks",
 
-  "sounds.toanotherdimension.novarite_detector_found_ore": "Novarite Detector Jingle"
+  "sounds.toanotherdimension.novarite_detector_found_ore": "Novarite Detector Jingle",
+
+  "tooltip.toanotherdimension.portalblock": "Step on top of it and wait",
+  "tooltip.toanotherdimension.novarite": "Used as a fuel or to create a portal block"
 }

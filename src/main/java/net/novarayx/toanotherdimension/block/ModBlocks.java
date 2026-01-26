@@ -2,9 +2,12 @@ package net.novarayx.toanotherdimension.block;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
+import net.minecraft.network.chat.Component;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -19,7 +22,9 @@ import net.novarayx.toanotherdimension.block.custom.ModFlammableRotatedPillarBlo
 import net.novarayx.toanotherdimension.block.custom.ModPortalBlock;
 import net.novarayx.toanotherdimension.item.ModItems;
 import net.novarayx.toanotherdimension.worldgen.tree.NovariteTreeGrower;
+import org.jetbrains.annotations.Nullable;
 
+import java.util.List;
 import java.util.function.Supplier;
 
 public class ModBlocks {
@@ -29,7 +34,13 @@ public class ModBlocks {
     public static final RegistryObject<Block> NOVARITE_BLOCK = registerBlock("novarite_block",
             ()-> new ModPortalBlock(BlockBehaviour.Properties.of()
                     .strength(4f)
-                    .sound(SoundType.AMETHYST)));
+                    .sound(SoundType.AMETHYST)){
+                @Override
+                public void appendHoverText(ItemStack pStack, @Nullable BlockGetter pLevel, List<Component> pTooltip, TooltipFlag pFlag) {
+                    pTooltip.add(Component.translatable("tooltip.toanotherdimension.portalblock"));
+                    super.appendHoverText(pStack, pLevel, pTooltip, pFlag);
+                }
+            });
     public static final RegistryObject<Block> NOVARITE_ORE_BLOCK = registerBlock("novarite_ore_block",
             ()-> new DropExperienceBlock(BlockBehaviour.Properties.of()
                     .strength(5f)

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "toanotherdimension:novarite_brick_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "NSN",
+    "NSN"
+  ],
+  "result": {
+    "item": "toanotherdimension:novarite_brick_fence"
+  },
+  "show_notification": true
+}

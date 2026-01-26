@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "toanotherdimension:novarite_stone_block"
+    }
+  },
+  "pattern": [
+    "NN",
+    "NN"
+  ],
+  "result": {
+    "count": 4,
+    "item": "toanotherdimension:novarite_brick_block"
+  },
+  "show_notification": true
+}

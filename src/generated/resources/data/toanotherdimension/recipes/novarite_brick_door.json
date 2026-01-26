@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "toanotherdimension:novarite_brick_block"
+    }
+  },
+  "pattern": [
+    "NN",
+    "NN",
+    "NN"
+  ],
+  "result": {
+    "item": "toanotherdimension:novarite_brick_door"
+  },
+  "show_notification": true
+}
